@@ -17,6 +17,22 @@ Calculator for two integers
 
 3. **Example**
   ```
-  $ java Calc.java
+  $ javac Calc.java
   $ java Calc 5 % 2
   $ 5 % 2 = 1
+  ```
+  
+# EQUATION.java
+
+Second degree (or below) equation solver.
+1. **How to use**
+  - In the terminal:
+    - javac Equation.java (only in the first use)
+    - java Equation *x^2_index* *x_index* *independent_index*
+
+2. **Example**
+  ```
+  $ javac Equation.java
+  $ java Equation 2 4 -6
+  $ x = -3.0 or x = 1.0
+  ```
