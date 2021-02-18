@@ -14,6 +14,6 @@ Calculator for two integers
   - "%" (remainder)
 
 3. **Example**
-  > $java calc 5 % 2
-  >
-  > $5 % 2 = 1
+  ```
+  $calc java 5 % 2
+  $5 % 2 = 1
