@@ -4,16 +4,16 @@ Calculator for two integers
 
 1. **How to use**
   - In the terminal:
-    - java calc <first num> <operation> <sec num>
+    - java calc /first num/ /operation/ /sec num/
 
 2. *Possible operations:*
 
-    - + (sum)
+    - "+" (sum)
 
-    - - (subtraction)
+    - "-" (subtraction)
 
-    - * (multiplication)
+    - "*" (multiplication)
 
-    - / (division)
+    - "/" (division)
 
-    - % (remainder)
+    - "%" (remainder)
