@@ -28,7 +28,7 @@ Second degree (or below) equation solver.
 1. **How to use**
   - In the terminal:
     - javac Equation.java (only in the first use)
-    - java Equation *indexOf(x^2)* *indexOf(x)* *independentIndex*
+    - java Equation *indexOf**x^2*** *indexOf**x*** ***independent**Index*
 
 2. **Example**
   ```
