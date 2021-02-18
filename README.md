@@ -12,6 +12,7 @@ Calculator for two integers
   - "-" (subtraction)
   - "*" (multiplication)
   - "/" (division)
+  - "/i" (integer division)
   - "%" (remainder)
 
 3. **Example**

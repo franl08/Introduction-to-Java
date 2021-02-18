@@ -14,6 +14,9 @@ public class Calc {
         else if (args[1].equals("/")){
             divTwoNumbers(num1, num2);
         }
+        else if (args[1].equals("/i")){
+            intDivTwoNumbers(num1,num2);
+        }
         else if(args[1].equals("%")){
             remainderTwoNumbers (num1, num2);
         }
@@ -36,6 +39,14 @@ public class Calc {
         System.out.println(a + " * " + b + " = " + r);
     }
     public static void divTwoNumbers(int a, int b){
+        try{
+            float r = (float) a / (float) b;
+            System.out.println(a + " / " + b + " = " + r);
+        } catch(ArithmeticException  e){
+            System.out.println("Can't divide a number by zero");
+        }
+    }
+    public static void intDivTwoNumbers(int a, int b){
         try{
             int r = a / b;
             System.out.println(a + " / " + b + " = " + r);
