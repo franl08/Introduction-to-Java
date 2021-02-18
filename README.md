@@ -1,5 +1,7 @@
 **_CALC.JAVA_**
+
 Calculator for two integers
+
 *Possible operations:*
 -> + (sum)
 -> - (subtraction)
