@@ -1,4 +1,4 @@
-# CALC.JAVA
+# CALC.java
 
 Calculator for two integers
 
