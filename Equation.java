@@ -17,9 +17,15 @@ public class Equation {
         if (bin < 0){
             System.out.println ("Impossible equation in R");
         } 
-        else if (a == 0){
+        else if (a1 == 0 && b1 != 0 && c1 != 0){
             r1 = (-c1) / b1;
             System.out.println("x = " + r1);
+        }
+        else if (a1 != 0 && b1 == 0 && c1 == 0 || a1 == 0 && b1 != 0 && c1 == 0){
+            System.out.println("x = 0");
+        }
+        else if (a1 == 0 && b1 == 0){
+            System.out.println("Not an equation");
         }
         else {
             r1 = (-b1 - Math.sqrt((squareB - (4 * a1 * c1)))) / (2 * a1);
