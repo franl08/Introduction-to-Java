@@ -17,7 +17,7 @@ Calculator for two integers
 
 3. **Example**
   ```
-  $ java Calc.java
+  $ javac Calc.java
   $ java Calc 5 % 2
   $ 5 % 2 = 1
   ```
@@ -32,7 +32,7 @@ Second degree (or below) equation solver.
 
 2. **Example**
   ```
-  $ java Equation.java
+  $ javac Equation.java
   $ java Equation 2 4 -6
   $ x = -3.0 or x = 1.0
   ```
