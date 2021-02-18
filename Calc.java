@@ -44,7 +44,11 @@ public class Calc {
         }
     }
     public static void remainderTwoNumbers (int a, int b){
-        int r = a % b;
-        System.out.println(a + " % " +   b  +  " = " + r);
+        try {
+            int r = a % b;
+            System.out.println(a + " % " +   b  +  " = " + r);
+        } catch(ArithmeticException  e){
+            System.out.println("Can't divide a number by zero");
+        }
     }
 }

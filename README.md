@@ -4,7 +4,8 @@ Calculator for two integers
 
 1. **How to use**
   - In the terminal:
-    - java calc *firstNum* *operation* *secNum*
+    - javac Calc
+    - java Calc *firstNum* *operation* *secNum*
 
 2. **Possible operations:**
   - "+" (sum)
