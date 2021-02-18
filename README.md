@@ -15,5 +15,5 @@ Calculator for two integers
 
 3. **Example**
   ```
-  $calc java 5 % 2
-  $5 % 2 = 1
+  $ java calc 5 % 2
+  $ 5 % 2 = 1
