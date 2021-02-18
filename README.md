@@ -13,6 +13,7 @@ Calculator for two integers
   - "/" (division)
   - "%" (remainder)
 
-3. **Example""
+3. **Example**
   > $java calc 5 % 2
+  
   > $5 % 2 = 1
