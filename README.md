@@ -1,11 +1,11 @@
-#**_CALC.JAVA_**
+# CALC.JAVA
 Calculator for two integers
-###*Possible operations:*
+### *Possible operations:*
 -> + (sum)
 -> - (subtraction)
 -> * (multiplication)
 -> / (division)
 -> % (remainder)
-##**How to use**
+# **How to use**
 In the terminal:
 java calc <first num> <operation> <sec num>
