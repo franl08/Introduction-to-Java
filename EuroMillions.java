@@ -13,41 +13,36 @@ public class EuroMillions {
         }
     }
     public static void generator(int index){
-        int num1, num2, num3, num4, num5, s1, s2, i;
+        int num1, num2, num3, num4, num5, s1, s2;
         index++;
-        num1 = num2 = num3 = num4 = num5 = i = 0;
-        while (i < 5){
+        num1 = num2 = num3 = num4 = num5 = 0;
+        for(int i = 0; i < 5; i++){
             if (i == 0){
                 num1 = randomNum();
-                i++;
             }
             else if (i == 1){
                 num2 = num1;
                 while (num2 == num1){
                 num2 = randomNum();
                 }
-                i++;
             }
             else if (i == 2){
                 num3 = num2;
                 while ((num3 == num2) || (num3 == num1)){
                     num3 = randomNum();
                 }
-                i++;
             }
             else if (i == 3){
                 num4 = num3;
                 while((num4 == num3) || (num4 == num2) || (num4 == num1)){
                     num4 = randomNum();
                 }
-                i++;
             }
             else{
                 num5 = num4;
                 while ((num5 == num4) || (num5 == num3) || (num5 == num2) || (num5 == num1)){
                     num4 = randomNum();
                 }
-                i++;
             }
         }
         s1 = randomStar();
