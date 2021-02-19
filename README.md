@@ -52,3 +52,25 @@ Heads or tails simulator.
   $ java HoT
   $ Tails
 ```
+
+# EUROMILLIONS.java
+
+Euromillions (possible) key generator.
+
+1. **How to use**
+  - In the terminal:
+    - javac EuroMillions.java (only in the first use)
+    - java EuroMillions *numKeys*
+
+2. **Example**
+  ```
+  $ javac EuroMillions.java
+  $ java EuroMillions 2
+  $ Key 1:
+  $ Numbers: 15 48 49 24 47
+  $ Stars: 9 5
+  $
+  $ Key 2:
+  $ Numbers: 28 22 6 42 20
+  $ Stars: 11 2
+```
